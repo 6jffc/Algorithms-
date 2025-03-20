@@ -22,7 +22,7 @@ int main(){
 }
 /*
 #include<iostream>
-using namespace std;
+#include<string>
 
 int main(){
 	std::string cau;
