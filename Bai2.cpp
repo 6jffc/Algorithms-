@@ -1,4 +1,4 @@
-/*B�i 2: Vi?t ch??ng tr�nh ??m s? l?n xu?t hi?n c?a t? trong m?t c�u*/
+/*Bài 2: Viết chương trình đếm số lần xuất hiện của từ trong một câu*/
 #include<iostream>
 using namespace std;
 
@@ -20,3 +20,27 @@ int main(){
 		}
 	}
 }
+/*
+#include<iostream>
+using namespace std;
+
+int main(){
+	std::string cau;
+	char TuCanTim;
+
+	std::cout << "Nhap cau vao: ";
+	std::getline(std::cin, cau);
+
+	std::cout << "Tu can tim: ";
+	std::cin >> TuCanTim;
+
+	int dem = 0;
+	for (char kitu : cau){
+		if (TuCanTim == kitu){
+			dem++;
+		}
+	}
+	std::cout << "So lan xuat hien cua tu '" << TuCanTim << "' la: " << dem << std::endl;
+	return 0;
+}
+*/
